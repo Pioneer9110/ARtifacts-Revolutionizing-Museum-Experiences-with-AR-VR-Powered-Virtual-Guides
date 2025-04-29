@@ -23,11 +23,11 @@ Unreal Engine 5.3.2 (C++ and Blueprints)
 ## Back-end
 - AI & Speech Models:
 
-  *Whisper (Speech-to-Text) — Local
+  * Whisper (Speech-to-Text) — Local
 
-  *Ollama with Llama 3.1 7B model — Local
+  * Ollama with Llama 3.1 7B model — Local
 
-  *OpenedAI Speech (Text-to-Speech) — Docker-based local server
+  * OpenedAI Speech (Text-to-Speech) — Docker-based local server
   
 ![AI Backend Workflow](https://github.com/user-attachments/assets/b841bd0a-c847-41f8-9d0c-a55e0bd9e95f)  
 - Python
