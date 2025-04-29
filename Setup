@@ -26,7 +26,7 @@ sudo apt install docker.io docker-compose -y
 # (Optional) Install Git for version control
 sudo apt install git -y
 
-Unreal Engine 5 and VR Plugins (Manual Install)
+Unreal Engine 5 (Manual Install)
 Unreal Engine 5 → Install from Epic Games Launcher
 
 Node.js Libraries (For Signaling Server in WebRTC Setup)
