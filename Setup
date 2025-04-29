@@ -90,7 +90,7 @@ choco install git
 Open PowerShell or Command Prompt, navigate into your signaling server folder, then:
 npm install ws express webrtc
 
-4. Unreal Engine 5 and VR Plugins (Manual Setup)
+4. Unreal Engine 5 (Manual Setup)
 Unreal Engine 5.3 → Download through Epic Games Launcher.
 
 Full Windows Setup Script
