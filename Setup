@@ -1,1 +1,112 @@
+For Linux
+
+🐍 Python Libraries (for Whisper, TTS, Websockets, etc.)
+# Update pip first
+python -m pip install --upgrade pip
+# Install Whisper (local speech-to-text)
+pip install git+https://github.com/openai/whisper.git
+# Install Ollama Python package (if you interact with LLaMA 3.1 programmatically)
+pip install ollama
+# Install basic support libraries
+pip install asyncio websockets requests
+# Install FFmpeg (needed for Whisper)
+sudo apt-get install ffmpeg -y
+
+🖥 System Tools and Runtimes
+# Install Node.js and npm (for signaling server and WebRTC backend)
+sudo apt install nodejs npm -y
+# Install Docker (for running OpenedAI TTS server locally)
+sudo apt install docker.io docker-compose -y
+# (Optional) Install Git for version control
+sudo apt install git -y
+
+🎮 Unreal Engine 5 and VR Plugins (Manual Install)
+Unreal Engine 5 → Install from Epic Games Launcher
+Oculus SDK → Download inside Unreal Engine via Plugins > Virtual Reality > OculusVR.
+SteamVR SDK → Download inside Unreal Engine via Plugins > Virtual Reality > SteamVR.
+
+
+📦 Node.js Libraries (For Signaling Server in WebRTC Setup)
+(You would do this inside your signaling server folder)
+npm install ws
+npm install express
+npm install webrtc
+
+📜 Summary of all bash commands together
+If you want everything compact:
+# Update system and pip
+sudo apt update
+python -m pip install --upgrade pip
+# Install core Python libraries
+pip install git+https://github.com/openai/whisper.git
+pip install ollama asyncio websockets requests
+# Install FFmpeg
+sudo apt-get install ffmpeg -y
+# Install Node.js, npm, and Docker
+sudo apt install nodejs npm docker.io docker-compose git -y
+# Install Node packages for signaling server
+npm install ws express webrtc
+✅ This will cover everything needed to make your Whisper + Ollama + WebSockets + TTS pipeline fully functional.
+
+
+
+For Windows:
+
+🐍 1. Python Environment Setup (for Windows CMD / PowerShell)
+# Upgrade pip
+python -m pip install --upgrade pip
+# Install Whisper (speech-to-text model)
+pip install git+https://github.com/openai/whisper.git
+# Install Ollama Python SDK
+pip install ollama
+# Install basic libraries
+pip install asyncio websockets requests
+# FFmpeg for Windows - Whisper needs this
+choco install ffmpeg
+Notes:
+If you don't have Chocolatey (Windows package manager), install it first using this in admin PowerShell:
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+choco install ffmpeg is much easier than manually downloading FFmpeg zip files.
+
+🖥 2. System Tools Setup
+# Install Node.js + npm (for signaling server)
+choco install nodejs-lts
+# Install Docker Desktop (for running OpenedAI Speech)
+choco install docker-desktop
+# Install Git (if needed for cloning repos)
+choco install git
+
+📦 3. Node.js Packages (for Signaling Server)
+Open PowerShell or Command Prompt, navigate into your signaling server folder, then:
+npm install ws express webrtc
+(These are needed for WebRTC peer connection signaling.)
+🎮 4. Unreal Engine 5 and VR Plugins (Manual Setup)
+Unreal Engine 5.3 → Download through Epic Games Launcher.
+Enable these Unreal Plugins:
+OculusVR (for Meta Quest 2)
+SteamVR (optional) (for wider VR headset compatibility)
+
+📋 Full Windows Setup Script Summary
+If you want everything combined nicely (for admin PowerShell):
+# Upgrade pip
+python -m pip install --upgrade pip
+# Install Python libraries
+pip install git+https://github.com/openai/whisper.git
+pip install ollama asyncio websockets requests
+# Install Chocolatey (if not installed)
+Set-ExecutionPolicy Bypass -Scope Process -Force; `
+[System.Net.ServicePointManager]::SecurityProtocol = `
+[System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
+iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+# Install system tools
+choco install ffmpeg nodejs-lts docker-desktop git -y
+# Node.js dependencies for signaling server
+npm install ws express webrtc
+
+⚡ Important Reminders:
+Docker Desktop needs WSL2 enabled. Docker setup wizard will guide you automatically.
+Ollama (to run LLaMA 3.1) requires Windows Subsystem for Linux (WSL2).
+I can give you a quick wsl --install command if you don't have WSL yet.
+OpenedAI Speech server will run inside Docker (easy to set up).
+
 
