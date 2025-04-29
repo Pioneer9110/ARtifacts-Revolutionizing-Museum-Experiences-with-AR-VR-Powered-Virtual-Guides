@@ -1,0 +1,46 @@
+
+🛠 Game Development:
+Unreal Engine 5 (Core engine for building the VR environment)
+Oculus SDK (VR development plugin for Meta Quest 2)
+SteamVR SDK (Optional) (For broader VR headset support)
+
+🎨 3D Modeling and Texturing:
+Blender, Maya, 3ds Max (3D modeling and animation)
+ZBrush (High-detail sculpting)
+Substance Painter (3D texture painting)
+
+🧠 AI and Machine Learning:
+LLaMA 3.1 7B via Ollama (Local AI model for curator responses)
+Whisper (OpenAI’s local Speech-to-Text model)
+OpenedAI TTS (Open-source Text-to-Speech)
+
+🗣 Communication and Networking:
+WebSockets (Real-time signaling)
+SSH (Secure remote access)
+WebRTC (for experimental P2P communication in NodeJS signaling server)
+
+🛠 Version Control and Collaboration:
+GitHub / GitLab (Version control for code and assets)
+Perforce (Version control optimized for large binary files, used for UE5 projects)
+Slack / Discord (Team communication)
+
+🎧 Audio Processing:
+FFmpeg (Audio file handling and format conversions)
+Audacity / Adobe Audition (Audio recording and editing)
+FMOD / Wwise (VR audio integration and spatial sound design)
+
+🧪 Testing and Debugging:
+Unreal Engine’s VR Mode (Testing VR experiences)
+Oculus Debug Tool (Optimize VR performance)
+Performance Monitoring Software (Hardware monitoring for testing smoothness)
+
+🔒 Security and Compliance:
+SSL Certificates (Data security)
+GDPR Compliance Tools (Data protection regulation)
+
+🐍 Python Libraries Mentioned in Source Codes:
+asyncio
+websockets
+json
+os
+requests (for API communication with TTS service)
