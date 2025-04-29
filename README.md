@@ -16,7 +16,8 @@ AI Curator — A local AI-powered virtual museum guide built in Unreal Engine 5.
 # Tech Stack
 ## Front-end
 
-Unreal Engine 5.3.2 (C++ and Blueprints)  
+Unreal Engine 5.3.2 (C++ and Blueprints)
+
 ![Unreal Engine 5 Workflow](https://github.com/user-attachments/assets/9b7ad29b-98c3-44b0-8013-c5640df5f816)
 
 ## Back-end
@@ -29,7 +30,8 @@ Unreal Engine 5.3.2 (C++ and Blueprints)
 
 - OpenedAI Speech (local) - Text-to-Speech
 
-- Google Cloud VM - Signaling Server  
+- Google Cloud VM - Signaling Server
+  
 ![Balu-Bryan Protocol](https://github.com/user-attachments/assets/da5edf2f-5d77-4cf2-b931-9aef65fadf01)
 
 
