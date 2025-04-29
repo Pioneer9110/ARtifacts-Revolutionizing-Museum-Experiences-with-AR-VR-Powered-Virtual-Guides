@@ -1,7 +1,6 @@
 
 Game Development:
 Unreal Engine 5.3.2 (Core engine for building the VR environment)
-Oculus SDK (VR development plugin for Meta Quest 2)
 
 3D Modeling and Texturing:
 Blender
@@ -18,4 +17,3 @@ WebRTC
 
 Audio Processing:
 FFmpeg (Audio file handling and format conversions)
-FMOD / Wwise (VR audio integration and spatial sound design)
